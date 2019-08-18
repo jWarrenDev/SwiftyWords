@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		472EA7012309F6DF00A7E172 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 472EA6FF2309F6DF00A7E172 /* level2.txt */; };
+		472EA7022309F6DF00A7E172 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 472EA7002309F6DF00A7E172 /* level1.txt */; };
 		47A865D12305B76E009D3FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A865D02305B76E009D3FB9 /* AppDelegate.swift */; };
 		47A865D32305B76E009D3FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A865D22305B76E009D3FB9 /* ViewController.swift */; };
 		47A865D62305B76E009D3FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47A865D42305B76E009D3FB9 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		472EA6FF2309F6DF00A7E172 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
+		472EA7002309F6DF00A7E172 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
 		47A865CD2305B76E009D3FB9 /* SwiftyWords(HWS8).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftyWords(HWS8).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A865D02305B76E009D3FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47A865D22305B76E009D3FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				47A865D72305B771009D3FB9 /* Assets.xcassets */,
 				47A865D92305B771009D3FB9 /* LaunchScreen.storyboard */,
 				47A865DC2305B771009D3FB9 /* Info.plist */,
+				472EA7002309F6DF00A7E172 /* level1.txt */,
+				472EA6FF2309F6DF00A7E172 /* level2.txt */,
 			);
 			path = "SwiftyWords(HWS8)";
 			sourceTree = "<group>";
@@ -122,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				472EA7022309F6DF00A7E172 /* level1.txt in Resources */,
 				47A865DB2305B771009D3FB9 /* LaunchScreen.storyboard in Resources */,
 				47A865D82305B771009D3FB9 /* Assets.xcassets in Resources */,
+				472EA7012309F6DF00A7E172 /* level2.txt in Resources */,
 				47A865D62305B76E009D3FB9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
