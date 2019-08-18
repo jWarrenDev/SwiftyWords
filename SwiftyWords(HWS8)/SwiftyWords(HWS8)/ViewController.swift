@@ -49,6 +49,7 @@ class ViewController: UIViewController {
         cluesLabel.text = "CLUES"
         cluesLabel.numberOfLines = 0
         cluesLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
+        cluesLabel.layer.borderWidth = 2
         view.addSubview(cluesLabel)
         
         answersLabel = UILabel()
@@ -58,6 +59,7 @@ class ViewController: UIViewController {
         answersLabel.textAlignment = .right
         answersLabel.numberOfLines = 0
         answersLabel.setContentHuggingPriority(UILayoutPriority(1), for: .vertical)
+        answersLabel.layer.borderWidth = 2
         view.addSubview(answersLabel)
         
         currentAnswer = UITextField()
@@ -83,9 +85,8 @@ class ViewController: UIViewController {
         let buttonsView = UIView()
         buttonsView.translatesAutoresizingMaskIntoConstraints = false
         buttonsView.backgroundColor = .green
+        buttonsView.layer.borderWidth = 1
         view.addSubview(buttonsView)
-        
-        
         
         
         // NSLayoutConstraints
@@ -145,8 +146,6 @@ class ViewController: UIViewController {
                 
             }
         }
-        
-        
             cluesLabel.backgroundColor   = .purple
             answersLabel.backgroundColor = .yellow
     }
