@@ -85,7 +85,7 @@ class ViewController: UIViewController {
         let buttonsView = UIView()
         buttonsView.translatesAutoresizingMaskIntoConstraints = false
         buttonsView.backgroundColor = .green
-        buttonsView.layer.borderWidth = 1
+        buttonsView.layer.borderWidth = 2 
         view.addSubview(buttonsView)
         
         
@@ -185,6 +185,12 @@ class ViewController: UIViewController {
                 present(ac, animated: true)
                 
             }
+        
+        } else {
+            let ac = UIAlertController(title: "Incorrect", message: "You have presented an wrong answer", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Try Again", style: .default, handler: nil))
+            present(ac, animated: true) // dont for get to present it
+            score -= 1
         }
     }
     
