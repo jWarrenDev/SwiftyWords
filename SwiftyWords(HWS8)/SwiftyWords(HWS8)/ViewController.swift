@@ -21,7 +21,11 @@ class ViewController: UIViewController {
     var activatedButtons = [UIButton]() // will store all the buttons being tapped
     var solutions = [String]()
     
-    var score = 0
+    var score = 0 {
+        didSet {
+            scoreLabel.text = "Score: \(score)"
+        }
+    }
     var level = 1
     
     
